@@ -12,7 +12,7 @@ Generic CAS maven war overlay to exercise the latest versions of CAS. This overl
 * JDK 1.7+
 
 # Configuration 
-The `etc` directory contains the configuration files that need to be copied to `/cas/etc`. 
+The `etc` directory contains the configuration files that need to be copied to `/etc/cas`. 
 
 Current files are:
 

@@ -55,6 +55,7 @@ ADD . .
 
 RUN chmod 777 mvnw && ./mvnw clean package
 RUN cp target/cas.war $CATALINA_HOME/webapps/.
+RUN cp -r etc /etc/cas
 
 WORKDIR $CATALINA_HOME
 RUN  rm -rf /tmp/cas4build
