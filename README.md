@@ -49,3 +49,9 @@ CAS will be available at:
 
 ## External
 Deploy resultant `target/cas.war` to a Servlet container of choice.
+
+## Vanilla Credentials
+This is only on the "vanilla" original black box branch.
+```XML
+<entry key="casuser" value="Mellon"/>
+```
